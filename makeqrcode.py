@@ -5,7 +5,7 @@ from segno import helpers
 card = {
     'name' : "Ulrike,Martin",
     'email':"logopaedie-martin@web.de",
-    ***REMOVED***
+    #***REMOVED***
     'url' :"https://sms-2025.pages.dev/",
 }
 output_filename = "images/qr.png"
