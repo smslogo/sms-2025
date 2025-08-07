@@ -19,3 +19,11 @@ output_option = {
 qrcode = helpers.make_mecard(**card)
 qrcode.save(output_filename, **output_option)
 
+output_option_flyer = {
+    'dark': "black",
+    'light': "white",
+    'border': 5,
+    'scale': 5
+}
+output_filename = "../../logopedie-schulung/qr-flyer.png"
+qrcode.save(output_filename, **output_option_flyer)
